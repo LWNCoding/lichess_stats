@@ -3,6 +3,7 @@ import pandas as pd
 
 def save_openings(openings = {}, uniqueMatch = False, playerClass = False, timeControl = False):
     df = pd.DataFrame.from_dict(openings, orient = "index")
+    df.fillna(0, inplace = True)
     
     # Sort the columns
     if playerClass:
