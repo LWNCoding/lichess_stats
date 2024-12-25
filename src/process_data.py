@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 def extract_data(FILE_NAME = "INSERT_HERE"):
-    if FILE_NAME == "INSERT_HERE":
+    if FILE_NAME == "INSERT_HERE" or not FILE_NAME.endswith(".pgn"):
         raise Exception("Please provide the name of the PGN file to extract data from.")
     
     # Pathing

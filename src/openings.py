@@ -110,5 +110,3 @@ def update_result_counts(opening_dict, result):
         opening_dict["Black"] = opening_dict.get("Black", 0) + 1
     else:
         opening_dict["Draw"] = opening_dict.get("Draw", 0) + 1
-
-print(opening_counts(TESTING = True, TESTING_NUM = 5, saveOpenings = True, uniqueMatch = False, playerClass = False, timeControl = False))
