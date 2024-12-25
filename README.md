@@ -2,6 +2,8 @@
 
 cd /path/to/cloned/repo<br/>
 <br/>
+cd src/<br/>
+<br/>
 python main.py<br/>
 OR<br/>
 python3 main.py<br/>
