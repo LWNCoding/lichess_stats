@@ -1,0 +1,10 @@
+data/*
+data/**/*
+!data/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+analysis/*
+analysis/**/*
+!analysis/.gitkeep
+
